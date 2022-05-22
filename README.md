@@ -1,5 +1,8 @@
 # mlops-zoomcamp
 
+Goal of this course/zoomcamp is to practice best practices of **putting machine learning in production**
+
+
 ## Setting up Development Environment
 
 ### Python Package Management with Poetry
