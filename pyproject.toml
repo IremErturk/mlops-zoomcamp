@@ -16,6 +16,7 @@ xgboost = "^1.6.1"
 fastparquet = "^0.8.1"
 boto3 = "^1.23.8"
 protobuf = "~3.19.0"
+pyarrow = "^8.0.0"
 
 [tool.poetry.dev-dependencies]
 johnnydep = "^1.13"
