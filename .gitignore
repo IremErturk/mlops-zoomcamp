@@ -8,13 +8,13 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook
-.ipynb_checkpoints
+**/.ipynb_checkpoints
 
 # MLFlow
-*/mlruns
-*/*.db
+**/mlruns
+**/*.db
 
 # Artifacts
-*/data
-*/models
+**/data
+**/models
 
