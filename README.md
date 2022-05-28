@@ -12,12 +12,12 @@ Poetry is Python Package Management tool that helps managing package dependencie
 1. Install poetry as described in the [Poetry installation](https://python-poetry.org/docs/#installation) section
 
 2. Install packages based on defined versions in either `pyproject.toml` or `poetry.lock`. If you are interested to know details , please check [Installing Dependencies](https://python-poetry.org/docs/basic-usage/#installing-dependencies) section.
-    ```bash 
+    ```bash
     poetry install
     ```
 
-3. Activate the poetry environment 
-    ```bash 
+3. Activate the poetry environment
+    ```bash
     source {path_to_venv}/bin/activate
     ```
 
@@ -37,12 +37,12 @@ Pre-Commit allows to run hooks on every commit automatically to point out issues
 3. Running Pre-Commit on the repository, can be done in two different approach
 
     3.1.  Run on each commit, in that case, the hook scripts would not allow you to push your changes in GitHub
-    and inform your code success after each commit. For enabling that you need to initiate that once on the repository level as following   
-    ```bash 
+    and inform your code success after each commit. For enabling that you need to initiate that once on the repository level as following  
+    ```bash
         pre-commit install
      ```
-    
-    3.2. Run agains each file, allow you freedom to run hooks when you want, in that case there is no guarantee that each commit fits the coding 
+
+    3.2. Run agains each file, allow you freedom to run hooks when you want, in that case there is no guarantee that each commit fits the coding
     standards that you defined in  precommit configuration. But you can run against all of the files, whenever you want.
     ```bash
         pre-commit run --all-files

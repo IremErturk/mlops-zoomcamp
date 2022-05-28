@@ -14,17 +14,17 @@ Being productive with machine learning can therefore be challenging for several 
 
 
 
-### MLFLow 
+### MLFLow
 
 #### [Components](https://mlflow.org/docs/latest/concepts.html#mlflow-components)
 
-- **MLflow Tracking** 
+- **MLflow Tracking**
     - is an API and UI
         - for logging parameters, code versions, metrics, and artifacts when running your machine learning code and for later visualizing the results.
         - that allows keep track of all the relevant information from an ML experiment, which includes (source code, environment, data, model, hyperparameters, metrics, etc.)
     - allows you to organize your runs in to experiments. You can check how to [organize Runs in Experiements](https://mlflow.org/docs/latest/tracking.html#organizing-runs-in-experiments)
 
-- **MLflow Registry** is a centralized model store, set of APIs, and UI, to collaboratively manage the full lifecycle of an MLflow Model. 
+- **MLflow Registry** is a centralized model store, set of APIs, and UI, to collaboratively manage the full lifecycle of an MLflow Model.
 
 - **MLflow Project*** is simply a directory with code or a Git repository, and uses a descriptor file or simply convention to specify its dependencies and how to run the code.
 - **MLflow Models** offer a convention for packaging machine learning models in multiple flavors, and a variety of tools to help you deploy them. Each Model is saved as a directory containing arbitrary files and a descriptor file that lists several “flavors” the model can be used in
@@ -35,7 +35,7 @@ Being productive with machine learning can therefore be challenging for several 
 
 Why it is important? -> Reproducibility, Optimization, Organization
 
-For storing Runs and Artifacts, MLflow uses two components for storage: backend store and artifact store. 
+For storing Runs and Artifacts, MLflow uses two components for storage: backend store and artifact store.
 While the backend store persists MLflow entities (runs, parameters, metrics, tags, notes, metadata, etc), the artifact store persists artifacts (files, models, images, in-memory objects, or model summary, etc). You can check how [runs and artifacts are recorded](https://mlflow.org/docs/latest/tracking.html#how-runs-and-artifacts-are-recorded)
 
 

@@ -4,8 +4,8 @@
 [Course Video from Alexey](https://youtu.be/XwTH8BDGzYk)
 
 0. No Automation
-    - All code sits in Jupyter Notebook. 
-    - DS works alone and not belong to any team 
+    - All code sits in Jupyter Notebook.
+    - DS works alone and not belong to any team
 
 1. DEVOps, No MLOps
     - Developers, helps to DS to deploy a new model versions (but still works seperately)
