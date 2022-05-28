@@ -19,7 +19,7 @@ repos:
     rev: 5.7.0
     hooks:
       - id: isort
-        entry: isort --settings-path setup.cfg
+        entry: isort --settings-path pyproject.toml
         additional_dependencies: [ toml ]
 
   - repo: https://gitlab.com/pycqa/flake8
