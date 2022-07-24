@@ -17,9 +17,11 @@ fastparquet = "^0.8.1"
 boto3 = "^1.23.8"
 protobuf = "~3.19.0"
 pyarrow = "^8.0.0"
+prefect = {version = "2.0b5", allow-prereleases = true}
 
 [tool.poetry.dev-dependencies]
 johnnydep = "^1.13"
+greenlet = "^1.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
